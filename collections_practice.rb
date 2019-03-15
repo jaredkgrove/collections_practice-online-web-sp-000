@@ -53,6 +53,3 @@ def add_s(array)
     index == 1? element : element + "s" 
   end
 end
-
-my_array = ["a","b","c"]
-binding.pry
