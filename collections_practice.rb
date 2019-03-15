@@ -50,7 +50,7 @@ def add_s(array)
   #  element << "s" if index != 1
   #end
   array.each_with_index.collect do |element, index|
-    
+    index == 1? element : element + "s" 
   end
 end
 
